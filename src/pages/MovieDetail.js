@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useParams, Link, useNavigate } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import Backup from "../assets/images/backup.png";
 import { useTitle } from "../hooks/useTitle";
 

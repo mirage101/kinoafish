@@ -1,0 +1,27 @@
+.videos {
+    margin: 50px auto;
+    text-align: center;
+}
+.videos img {
+    margin: 0 auto;
+}
+.videos h3,
+.videos-grid span {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.videos-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(3, auto);
+    gap: 2rem 3rem;
+}
+.videos-grid div {
+    text-align: center;
+}
+.videos-grid iframe {
+    width: 100%;
+}
